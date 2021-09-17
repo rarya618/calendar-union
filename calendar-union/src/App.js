@@ -105,7 +105,7 @@ export const TextBox = styled.input`
   font-size: calc(10px + 1vmin);
   color: #000;
   margin: 0.5em;
-  padding: 0.5em 1em;
+  padding: 0.6em 1em;
   min-width: 400px;
 `;
 
