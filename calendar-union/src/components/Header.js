@@ -13,7 +13,8 @@ const Header = () => (
         <RightDots src={dots} />
         <LeftDots src={dots} />
 
-        <StandardButton className="top-right" onClick={event => window.location.href='./'}>Log Out</StandardButton>
+        <StandardButton className="home-button" onClick={event => window.location.href='./home'}>Home</StandardButton>
+        <StandardButton className="log-out" onClick={event => window.location.href='./'}>Log Out</StandardButton>
     </div>
 );
 

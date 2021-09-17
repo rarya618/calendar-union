@@ -53,6 +53,20 @@ border-radius: 50%;
 display: inline-block;
 `;
 
+export const Icon = styled.img`
+  height: 20px;
+  margin-top: 3px;
+  margin-left: 2px;
+`;
+
+export const IconButton = styled.button`
+  border: none;
+  width: 45px;
+  height: 30px;
+  vertical-align: middle;
+  border-radius: 5px;
+`;
+
 export const RightDots = styled.img`
   position: fixed;
   top: 3.5em;
