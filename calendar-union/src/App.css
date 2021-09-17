@@ -15,6 +15,7 @@
   display: flex;
   color: black;
   flex-direction: column;
+  padding: 0 20px;
   overflow: hidden;
   width: 100% !important;
   height: 100% !important;
@@ -52,7 +53,7 @@
 
 .left-container {
   position: absolute;
-  padding-left: 2%;
+  padding-left: 40px;
   width: 40%;
   float: left;
   left: 0;
@@ -112,7 +113,7 @@
 
 .full-calendar-container {
   top: 60px;
-  right: 0;
+  right: 40px;
   position: absolute;
   width: 60%;
 }

@@ -34,7 +34,7 @@ const Home = () => (
             <tr>
                 <td>{unions[0]['date']}</td>
                 <td>{unions[0]['unionName']}</td>
-                <td><IconButton className="blue" onclick={() =>window.location.href='./calendar'}><Icon src={viewIcon} /></IconButton></td>
+                <td><IconButton className="blue" onclick={()=>window.location.href='./calendar'}><Icon src={viewIcon} /></IconButton></td>
                 <td><IconButton className="red"><Icon src={deleteIcon} /></IconButton></td>
             </tr>
         </table>
