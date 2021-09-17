@@ -1,10 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  font-family: 'Poppins', serif;
+}
+
 .App {
   text-align: center;
+  font-size: calc(10px + 2vmin);
+  background-color: #fff;
+  align-items: center;
+  display: flex;
+  color: black;
+  flex-direction: column;
+  /* overflow-x: hidden; */
+  overflow: hidden;
+  width: 100% !important;
+  height: 100% !important;
+  position:absolute;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.top-right {
+  position: fixed;
+  top: 50px;
+  right: 50px;
+}
+
+.cal-img-container {
+  position: relative;
+}
+
+.left-container {
+  position: absolute;
+  width: 50%;
+  float: left;
+  left: 0;
+}
+
+.right-container {
+  float: right;
+  position: absolute;
+  width: 40%;
+}
+
+.footer-container {
+  position: absolute;
+  bottom: 10px;
+}
+
+.second {
+  position: relative;
+  top: -400px;
+  left: -60px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,14 +65,7 @@
 }
 
 .App-header {
-  background-color: #fff;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: black;
+  text-align: left;
 }
 
 .App-link {
