@@ -184,14 +184,8 @@
     float: left;
     position: relative;
   }
-  .log-out, .home-button {
-    position: relative;
-    display: inline-block;
-    right: 0;
-    left: 0;
-    top: 10px;
-    bottom: 0;
-    text-align: left;
+  .log-out {
+    right: 30px;
   }
   .second {
     display: none;
@@ -213,6 +207,22 @@
     text-align: center;
     left: 0;
   }
+
+  .full-calendar-container {
+    width: 100%;
+    height: 40vh;
+    position: relative;
+    right: 0;
+    top: 0;
+  }
+
+  .fc-media-screen {
+    float: left;
+    position: relative;
+    height: 40vh;
+    margin: 0px;
+  }
+
 
 }
 

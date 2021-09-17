@@ -4,6 +4,9 @@ import { BlueButton, Online, Offline, Title, Subtitle, Collaborator } from "../A
 
 const CalendarInterface = () => (
     <div>
+        <div className="full-calendar-container">
+            <Calendar />
+        </div>
         <div className="left-container left-align">
             <Title>Freelancer</Title>
             <BlueButton>Sync My Cal</BlueButton>
@@ -13,10 +16,6 @@ const CalendarInterface = () => (
             <Collaborator><Online></Online>Collaborator 2</Collaborator>
             <Collaborator><Offline></Offline>Collaborator 3</Collaborator>
             <Collaborator><Offline></Offline>Collaborator 4</Collaborator>
-        </div>
-
-        <div className="full-calendar-container">
-            <Calendar />
         </div>
     </div>
 );
