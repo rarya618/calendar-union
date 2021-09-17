@@ -110,30 +110,23 @@ export const TextBox = styled.input`
 `;
 
 
-class App extends Component {
-  componentDidMount() {
-  }
-
-  render() {
-    return (
-      <BrowserRouter>
-        <div className="App">
-          <link rel="preconnect" href="https://fonts.googleapis.com" /> 
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> 
-          <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
-          
-          <header className="App-header">
-            <Header />
-          </header>
-          <Switch>
-            <Route path="/" component={Landing} exact />
-            <Route path="/home" component={Home} />
-          </Switch>
-          <Footer />
-        </div>
-      </BrowserRouter>
-    );
-  }
-}
+const App = () => (
+  <BrowserRouter>
+    <div className="App">
+      <link rel="preconnect" href="https://fonts.googleapis.com" /> 
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> 
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+      
+      <header className="App-header">
+        <Header />
+      </header>
+      <Switch>
+        <Route path="/" component={Landing} exact />
+        <Route path="/home" component={Home} />
+      </Switch>
+      <Footer />
+    </div>
+  </BrowserRouter>
+);
 
 export default App;
