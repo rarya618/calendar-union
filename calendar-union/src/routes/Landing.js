@@ -8,9 +8,6 @@ import Info from "../components/Info";
 
 const Landing = () => (
     <div>
-        <div className="right-container">
-            <CalendarImages />
-        </div>
         <div className="left-container">
             <div className="left-align">
                 <Title>How to Register</Title>
@@ -19,6 +16,9 @@ const Landing = () => (
             <Title>Sign In With</Title>
             <StandardButton onClick={event => window.location.href='./home'}><CompanyImg src={googleLogo} />Google</StandardButton>
             <StandardButton onClick={event => window.location.href='./home'}><CompanyImg src={appleLogo} />Apple</StandardButton>
+        </div>
+        <div className="right-container">
+            <CalendarImages />
         </div>
     </div>
 );

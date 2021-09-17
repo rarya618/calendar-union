@@ -165,12 +165,24 @@
 }
 
 @media screen and (max-width: 768px) {
+  .App {
+    overflow: scroll;
+  }
   .right-container {
-    width: 40%;
+    width: 100%;
+    left: 0;
+    position: relative;
+    float: left;
+  }
+  .first {
+    width: 90%;
+    position: relative;
   }
   .left-container {
-    width: 70%;
+    width: 90%;
     padding-left: 5%;
+    float: left;
+    position: relative;
   }
   .log-out, .home-button {
     position: relative;
@@ -179,17 +191,26 @@
     left: 0;
     top: 10px;
     bottom: 0;
+    text-align: left;
   }
   .second {
     display: none;
   }
   .first {
     position: relative;
+  }
 
+  .home-button {
+    display: none;
   }
 
   .cal-img-container {
     width: 100%;
+    left: 0;
+  }
+
+  .logo-container {
+    text-align: center;
     left: 0;
   }
 
