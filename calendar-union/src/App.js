@@ -14,6 +14,7 @@ import Footer from "./components/Footer";
 export const Title = styled.h3`
   color: #0084FF;
   font-weight: 600;
+  margin: 1em 0 0.2em 0;
 `;
 
 export const Subtitle = styled.h5`
@@ -24,6 +25,8 @@ export const Subtitle = styled.h5`
 
 export const Text = styled.p`
   margin: 0;
+  background: #F6F8FB;
+  padding: 5px 15px;
 `;
 
 export const LogoImg = styled.img`
@@ -49,7 +52,7 @@ export const LogoClass = styled.div`
 export const CompanyImg = styled.img`
   height: 20px;
   vertical-align: middle;
-  margin: 0 7.5px;
+  margin: 0 7.5px 0 0;
   position: relative;
   top: -3px;
 `;
