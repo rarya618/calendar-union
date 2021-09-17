@@ -9,7 +9,7 @@
   font-size: calc(2px + 2vmin);
   background: url("./resources/background.png");
   background-attachment: fixed;
-  background-size: 100%;
+  background-size: 125%;
   background-repeat: no-repeat;
   align-items: center;
   display: flex;
@@ -18,7 +18,7 @@
   overflow: hidden;
   width: 100% !important;
   height: 100% !important;
-  position:absolute;
+  position: absolute;
 }
 
 .App-logo {
@@ -28,8 +28,8 @@
 
 .top-right {
   position: fixed;
-  top: 50px;
-  right: 50px;
+  top: 20px;
+  right: 30px;
 }
 
 .cal-img-container {

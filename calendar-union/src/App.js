@@ -29,6 +29,20 @@ export const Text = styled.p`
   padding: 5px 15px;
 `;
 
+export const RightDots = styled.img`
+  position: fixed;
+  top: 5em;
+  right: 8em;
+  width: 12em;
+`;
+
+export const LeftDots = styled.img`
+  position: fixed;
+  bottom: 5em;
+  left: -8em;
+  width: 12em;
+`;
+
 export const LogoImg = styled.img`
   width: 80px;
   margin: 24px 12px;
