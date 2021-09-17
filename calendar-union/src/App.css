@@ -15,7 +15,6 @@
   display: flex;
   color: black;
   flex-direction: column;
-  /* overflow-x: hidden; */
   overflow: hidden;
   width: 100% !important;
   height: 100% !important;
@@ -45,6 +44,10 @@
   left: 0;
 }
 
+.left-align {
+  text-align: left;
+}
+
 .right-container {
   float: right;
   position: absolute;
@@ -54,6 +57,7 @@
 .logo-container {
   display: inline-block;
   position: relative;
+  text-align: left;
   top: 0;
   left: 10px;
 }
@@ -71,6 +75,7 @@
 
 .App-header {
   text-align: left;
+  width: 100%;
 }
 
 .App-link {

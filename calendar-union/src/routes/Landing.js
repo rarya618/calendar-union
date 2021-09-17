@@ -12,8 +12,10 @@ const Landing = () => (
             <CalendarImages />
         </div>
         <div className="left-container">
-            <Title>How to Register</Title>
-            <Info />
+            <div className="left-align">
+                <Title>How to Register</Title>
+                <Info />
+            </div>
             <Title>Sign In With</Title>
             <StandardButton onClick={event => window.location.href='./home'}><CompanyImg src={googleLogo} />Google</StandardButton>
             <StandardButton onClick={event => window.location.href='./home'}><CompanyImg src={appleLogo} />Apple</StandardButton>
