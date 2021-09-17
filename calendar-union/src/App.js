@@ -13,10 +13,18 @@ import Footer from "./components/Footer";
 
 export const Title = styled.h3`
   color: #0084FF;
-  font-weight: semibold;
+  font-weight: 600;
 `;
 
-export const Text = styled.p``;
+export const Subtitle = styled.h5`
+  color: #0084FF;
+  font-weight: 600;
+  margin: 1.4em 0 0.8em 0;
+`;
+
+export const Text = styled.p`
+  margin: 0;
+`;
 
 export const LogoImg = styled.img`
   width: 100px;
@@ -26,16 +34,24 @@ export const LogoImg = styled.img`
 export const LogoTitle = styled.h3`
   color: #0084FF;
   float: left;
+  font-size: 29px;
   font-weight: semibold;
 `;
 
 export const LogoClass = styled.div`
   display: inline-block;
+  position: relative;
+  top: 0;
+  left: 10px;
+  float: left;
 `;
 
 export const CompanyImg = styled.img`
-  width: 20px;
-  margin: 5px;
+  height: 20px;
+  vertical-align: middle;
+  margin: 0 7.5px;
+  position: relative;
+  top: -3px;
 `;
 
 export const Link = styled.a`
