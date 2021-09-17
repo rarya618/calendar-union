@@ -183,6 +183,7 @@
     padding-left: 5%;
     float: left;
     position: relative;
+    text-align: center;
   }
   .log-out {
     right: 30px;
@@ -221,6 +222,11 @@
     position: relative;
     height: 40vh;
     margin: 0px;
+  }
+
+  .fc-toolbar-title {
+    font-size: 24px !important;
+    padding: 0 24px;
   }
 
 
