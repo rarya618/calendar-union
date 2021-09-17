@@ -30,7 +30,8 @@ export const Text = styled.p`
 `;
 
 export const LogoImg = styled.img`
-  width: 100px;
+  width: 80px;
+  margin: 24px 12px;
   float: left;
 `;
 
@@ -39,14 +40,6 @@ export const LogoTitle = styled.h3`
   float: left;
   font-size: 29px;
   font-weight: semibold;
-`;
-
-export const LogoClass = styled.div`
-  display: inline-block;
-  position: relative;
-  top: 0;
-  left: 10px;
-  float: left;
 `;
 
 export const CompanyImg = styled.img`

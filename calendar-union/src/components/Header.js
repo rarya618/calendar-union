@@ -5,10 +5,10 @@ import logo from "../resources/logo.png";
 export default class Header extends Component {
     render() {
         return (
-            <LogoClass>
+            <div className="logo-container">
                 <LogoImg src={logo} />
                 <LogoTitle>Calendar Union</LogoTitle>
-            </LogoClass>
+            </div>
         );
     }
 }

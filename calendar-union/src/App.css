@@ -7,7 +7,10 @@
 .App {
   text-align: center;
   font-size: calc(4px + 2vmin);
-  background-color: #fff;
+  background: url("./resources/background.png");
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
   align-items: center;
   display: flex;
   color: black;
@@ -48,9 +51,16 @@
   width: 40%;
 }
 
+.logo-container {
+  display: inline-block;
+  position: relative;
+  top: 0;
+  left: 10px;
+}
+
 .footer-container {
   position: absolute;
-  bottom: 10px;
+  bottom: 15px;
 }
 
 .second {
@@ -59,25 +69,10 @@
   left: -60px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   text-align: left;
 }
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
