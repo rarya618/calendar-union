@@ -6,21 +6,22 @@ import React, { Component } from "react";
 
 import Landing from "./routes/Landing";
 import Home from "./routes/Home";
+import CalendarInterface from './routes/CalendarInterface';
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 
-export const Title = styled.h3`
+export const Title = styled.h2`
   color: #0084FF;
   font-weight: 600;
-  margin: 1em 0 0.2em 0;
+  margin: 0.8em 0 0.2em 0;
 `;
 
-export const Subtitle = styled.h5`
+export const Subtitle = styled.h4`
   color: #0084FF;
   font-weight: 600;
-  margin: 1.4em 0 0.8em 0;
+  margin: 1.2em 0 0.6em 0;
 `;
 
 export const Text = styled.p`
@@ -29,10 +30,33 @@ export const Text = styled.p`
   padding: 5px 15px;
 `;
 
+export const Collaborator = styled.p`
+  margin: 0;
+  padding: 10px;
+`;
+
+export const Online = styled.span`
+width: 12px;
+height: 12px;
+margin: 1px 10px 1px 5px;
+background: #00ED3F;
+border-radius: 50%;
+display: inline-block;
+`;
+
+export const Offline = styled.span`
+width: 12px;
+height: 12px;
+margin: 1px 10px 1px 5px;
+background: #CFCFCF;
+border-radius: 50%;
+display: inline-block;
+`;
+
 export const RightDots = styled.img`
   position: fixed;
-  top: 5em;
-  right: 8em;
+  top: 3.5em;
+  right: 6em;
   width: 12em;
 `;
 
@@ -95,8 +119,8 @@ export const StandardButton = styled.button`
   padding: 0.5em 0.9em;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
   vertical-align: middle;
-  font-weight: semibold;
-  
+  font-weight: 600;
+  cursor: pointer;
 `;
 
 export const BlueButton = styled.button`
@@ -110,6 +134,7 @@ export const BlueButton = styled.button`
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
   vertical-align: middle;
   font-weight: 600;
+  cursor: pointer;
 `;
 
 export const TextBox = styled.input`
@@ -137,6 +162,7 @@ const App = () => (
       <Switch>
         <Route path="/" component={Landing} exact />
         <Route path="/home" component={Home} />
+        <Route path="/calendar" component={CalendarInterface} />
       </Switch>
       <Footer />
     </div>

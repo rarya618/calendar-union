@@ -6,6 +6,7 @@ import Info from "../components/Info";
 const Home = () => (
     <div>
         <Text>Welcome</Text>
+        {/* Name to be replaced with the one pulled from the API */}
         <Title>Manart Mamuju</Title>
         <div>
             {/* <TextBox placeholder="Insert Union Name" /> */}
@@ -15,7 +16,6 @@ const Home = () => (
         <Title>How to Create Union</Title>
         <Info />
         
-        <StandardButton className="top-right" onClick={event => window.location.href='./'}>Log Out</StandardButton>
     </div>
 );
 
