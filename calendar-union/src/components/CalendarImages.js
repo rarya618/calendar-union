@@ -5,7 +5,7 @@ import { CalendarImg } from "../App";
 
 const CalendarImages = () => (
     <div className="cal-img-container">
-        <CalendarImg src={calendar} />
+        <CalendarImg className="first" src={calendar} />
         <CalendarImg className="second" src={calendar} />
     </div>
 );

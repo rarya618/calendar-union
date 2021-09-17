@@ -15,9 +15,9 @@
   display: flex;
   color: black;
   flex-direction: column;
-  padding: 0 20px;
-  overflow: hidden;
-  width: 100% !important;
+  padding: 0 5%;
+  overflow: hidden !important;
+  width: 90% !important;
   height: 100% !important;
   position: absolute;
 }
@@ -30,13 +30,13 @@
 .log-out {
   position: fixed;
   top: 20px;
-  right: 30px;
+  right: 70px;
 }
 
 .home-button {
   position: fixed;
   top: 20px;
-  right: 160px;
+  right: 200px;
 }
 
 .blue {
@@ -53,8 +53,8 @@
 
 .left-container {
   position: absolute;
-  padding-left: 40px;
-  width: 40%;
+  padding-left: 80px;
+  width: 36%;
   float: left;
   left: 0;
 }
@@ -162,4 +162,41 @@
 
 .App-link {
   color: #61dafb;
+}
+
+@media screen and (max-width: 768px) {
+  .right-container {
+    width: 40%;
+  }
+  .left-container {
+    width: 70%;
+    padding-left: 5%;
+  }
+  .log-out, .home-button {
+    position: relative;
+    display: inline-block;
+    right: 0;
+    left: 0;
+    top: 10px;
+    bottom: 0;
+  }
+  .second {
+    display: none;
+  }
+  .first {
+    position: relative;
+
+  }
+
+  .cal-img-container {
+    width: 100%;
+    left: 0;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .home-button {
+    display: none;
+  }
 }
